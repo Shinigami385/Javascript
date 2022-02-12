@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="js/gamemanager.js" charset="utf-8"></script>
+  <script src="js/heroes.js" charset="utf-8"></script>
+  <script src="js/enemies.js" charset="utf-8"></script>
+
+  <title>Game using Javascript</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <p>Play Naruto Shippuden inspired game</p>
+    <h2>Choose your Hidden Grass Shinobi</h2>
+  </div>
+
+  <div class="heroes">
+    <a href="#" onclick="GameManager.setGameStart('Naruto')">
+      <img src="img/avatar-heroes/naruto.jpg" alt="naruto">
+      <div>
+        <h3>Naruto</h3>
+        <p>Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) is a shinobi of Konohagakure's Uzumaki clan.
+          He became the jinchūriki of the Nine-Tails on the day of his birth.
+          he became a capable ninja, regarded as a hero both by the villagers,
+          and soon after, the rest of the world, becoming known as the <b>Hero of the Hidden Leaf</b>
+        </p>
+      </div>
+    </a>
+    <a href="#" onclick="GameManager.setGameStart('Sasuke')">
+      <img src="img/avatar-heroes/sasuke.jpg" alt="sasuke">
+      <div>
+        <h3>Sasuke</h3>
+        <p>
+          <b>Sasuke Uchiha</b> (うちはサスケ, Uchiha Sasuke) is one of the last surviving members of Konohagakure's Uchiha clan.
+          Sasuke decides to return to Konoha and dedicate his life to help protect the village and its inhabitants,
+          becoming referred to as the <b>"Supporting Kage"</b>
+        </p>
+      </div>
+    </a>
+    <a href="#" onclick="GameManager.setGameStart('Kakashi')">
+      <img src="img/avatar-heroes/kakashi.jpg" alt="kakashi">
+      <div>
+        <h3>Kakashi</h3>
+        <p>
+          <b>Kakashi Hatake</b> (はたけカカシ, Hatake Kakashi) is a shinobi of Konohagakure's Hatake clan.
+          Famed as <b>>Kakashi of the Sharingan</b (写輪眼のカカシ, Sharingan no Kakashi), he is one of Konoha's most talented ninja,
+            regularly looked to for advice and leadership despite his personal dislike of responsibility. </p>
+      </div>
+    </a>
+    <a href="#" onclick="GameManager.setGameStart('Neji')">
+      <img src="img/avatar-heroes/neji.jpg" alt="neji">
+      <div>
+        <h3>Neji</h3>
+        <p>
+          <b>Neji Hyūga</b> (日向ネジ, Hyūga Neji) was a shinobi of Konohagakure's Hyūga clan. Though a prodigy even by the Hyūga's standards,
+          Neji was a member of the clan's branch house member of Team Guy he sought the strength necessary to make the future he wanted for his family and friends,
+          and ultimately sacrificed his life to protect the very same person who taught him about the freedom of one's choice of fate, Naruto.
+        </p>
+      </div>
+    </a>
+  </div>
+
+  <div class="actions">
+
+  </div>
+
+  <div class="arena">
+
+  </div>
+
+  <div class="enemies">
+
+  </div>
+
+</body>
+
+</html>
