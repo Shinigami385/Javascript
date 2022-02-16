@@ -1,0 +1,44 @@
+body {
+  background-color: #F1F1F1;
+}
+
+img{
+  height: 100px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1000;
+  display: inline;
+}
+
+.nav-list {
+  float: right;
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.nav-list a {
+  line-height: 30px;
+  height: 100%;
+  padding: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fa7556;
+  font-family: arial;
+  font-size: 20px;
+  float: right;
+}
+
+.nav-list a:hover {
+  font-size: 25px;
+  color: #fc2a07;
+}
